@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3b534961f4ec4917b726d4fbd159c26d" Name="Diagram1">
+        <EntityTypeShape EntityType="DemoModel.Klient" Width="1.5" PointX="6.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.Neispravnost" Width="1.5" PointX="8.125" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.Role" Width="1.5" PointX="4.375" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.Status" Width="1.5" PointX="6.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoModel.Zaiavka" Width="1.5" PointX="8.125" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DemoModel.FK_Klient_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel.FK_Zaiavka_Klient" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel.FK_Zaiavka_Neispravnost" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel.FK_Zaiavka_Status" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
